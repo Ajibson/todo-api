@@ -1,0 +1,53 @@
+# Compiled Python files
+*.pyc
+*.pyo
+__pycache__/
+
+# Caches
+*.pyc
+*.pyo
+
+# Editor-specific files
+.vscode/
+*.swp
+*.swo
+
+# Environment-specific files
+*.env
+.env/
+
+# Logs
+*.log*
+
+# Build files
+build/
+dist/
+
+# Dependency directories
+venv/
+env/
+lib/
+libs/
+bin/
+include/
+
+# Other files to ignore (customize as needed)
+*.DS_Store
+*.bak
+*.tmp
+
+# Ignore pipenv and poetry lock files if using those tools
+Pipfile.lock
+poetry.lock
+
+trash.py
+*client_secret*
+*-key.cer
+/htmlcov
+/static
+/staticfiles
+
+*.sql
+*cer
+
+/nginx
